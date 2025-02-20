@@ -1,0 +1,6 @@
+services: 
+  php: 
+    image: jaumee19/mi_calculator:v1 
+    container_name: contenedorMiCalculadora 
+    ports: 
+      - "8080:80"
